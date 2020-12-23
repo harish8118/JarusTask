@@ -16,6 +16,8 @@
 		CC48B685259320B500DECDF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC48B683259320B500DECDF1 /* LaunchScreen.storyboard */; };
 		CC48B690259320B500DECDF1 /* JarusTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC48B68F259320B500DECDF1 /* JarusTaskTests.swift */; };
 		CC48B69B259320B500DECDF1 /* JarusTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC48B69A259320B500DECDF1 /* JarusTaskUITests.swift */; };
+		CC48B6C82593241300DECDF1 /* assignment.json in Resources */ = {isa = PBXBuildFile; fileRef = CC48B6C72593241300DECDF1 /* assignment.json */; };
+		CC48B6EF2593723D00DECDF1 /* UIColor+AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC48B6EE2593723D00DECDF1 /* UIColor+AppColors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		CC48B696259320B500DECDF1 /* JarusTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JarusTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC48B69A259320B500DECDF1 /* JarusTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JarusTaskUITests.swift; sourceTree = "<group>"; };
 		CC48B69C259320B500DECDF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC48B6C72593241300DECDF1 /* assignment.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = assignment.json; sourceTree = "<group>"; };
+		CC48B6EE2593723D00DECDF1 /* UIColor+AppColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+AppColors.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,11 +108,13 @@
 				CC48B675259320B200DECDF1 /* AppDelegate.swift */,
 				CC48B677259320B200DECDF1 /* SceneDelegate.swift */,
 				CC48B679259320B200DECDF1 /* ViewController.swift */,
+				CC48B6EE2593723D00DECDF1 /* UIColor+AppColors.swift */,
 				CC48B67B259320B200DECDF1 /* Main.storyboard */,
 				CC48B681259320B500DECDF1 /* Assets.xcassets */,
 				CC48B683259320B500DECDF1 /* LaunchScreen.storyboard */,
 				CC48B686259320B500DECDF1 /* Info.plist */,
 				CC48B67E259320B200DECDF1 /* JarusTask.xcdatamodeld */,
+				CC48B6C72593241300DECDF1 /* assignment.json */,
 			);
 			path = JarusTask;
 			sourceTree = "<group>";
@@ -234,6 +240,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC48B6C82593241300DECDF1 /* assignment.json in Resources */,
 				CC48B685259320B500DECDF1 /* LaunchScreen.storyboard in Resources */,
 				CC48B682259320B500DECDF1 /* Assets.xcassets in Resources */,
 				CC48B67D259320B200DECDF1 /* Main.storyboard in Resources */,
@@ -261,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC48B6EF2593723D00DECDF1 /* UIColor+AppColors.swift in Sources */,
 				CC48B67A259320B200DECDF1 /* ViewController.swift in Sources */,
 				CC48B676259320B200DECDF1 /* AppDelegate.swift in Sources */,
 				CC48B680259320B200DECDF1 /* JarusTask.xcdatamodeld in Sources */,
